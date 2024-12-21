@@ -1,4 +1,3 @@
-import React from 'react';
 import { Code2 } from 'lucide-react';
 
 export function Header() {
@@ -8,17 +7,17 @@ export function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Code2 className="h-8 w-8 text-blue-600" />
-            <h1 className="text-2xl font-bold text-gray-900">MiniProjects</h1>
+            <h1 className="text-2xl font-bold text-gray-900"><a href='/'>MiniProjects</a></h1>
           </div>
           <nav>
             <ul className="flex gap-6">
               <li>
-                <a href="#projects" className="text-gray-600 hover:text-gray-900">
+                <a href="/" className="text-gray-600 hover:text-gray-900">
                   Projects
                 </a>
               </li>
               <li>
-                <a href="#about" className="text-gray-600 hover:text-gray-900">
+                <a href="/#about" className="text-gray-600 hover:text-gray-900">
                   About
                 </a>
               </li>
