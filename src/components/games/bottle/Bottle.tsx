@@ -1,3 +1,5 @@
+import bottle from './assets/bottle.png';
+
 interface BottleProps {
   rotation: number;
   onClick: () => void;
@@ -16,7 +18,7 @@ export function Bottle({ rotation, onClick, disabled }: BottleProps) {
         style={{ transform: `rotate(${rotation}deg)` }}
       >
         <img 
-          src="https://images.unsplash.com/photo-1630396592772-246c7863c40c?auto=format&fit=crop&q=80&w=200"
+          src={bottle}
           alt="Bottle"
           className="absolute inset-0 w-full h-full object-contain transform scale-[0.15,1]"
         />
